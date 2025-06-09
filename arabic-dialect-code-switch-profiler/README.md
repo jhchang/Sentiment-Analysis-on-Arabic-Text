@@ -40,16 +40,16 @@ Build a model that:
 
 Will start with these for grounding and architecture inspiration:
 
-1. **[MARBERT: Pretraining BERT on Arabic Tweets](https://arxiv.org/abs/2101.03514)**
+1. **[MARBERT: Pretraining BERT on Arabic Tweets](https://aclanthology.org/2021.acl-long.551.pdf)**
 
    * Focused on dialectal Arabic.
-2. **[CAMeL Tools](https://camel-tools.readthedocs.io/en/latest/)**
+2. **[CAMeL Tools](https://aclanthology.org/2020.lrec-1.868v2.pdf)**
 
    * Toolkit for Arabic NLP, including dialect identification.
-3. **[AraBERTv2: Arabic BERT](https://arxiv.org/abs/2009.03588)**
+3. **[AraBERTv2: Arabic BERT](https://arxiv.org/abs/2003.00104v2)**
 
    * Standard Arabic and dialect support.
-4. **[Fine-grained Arabic Dialect Identification](https://aclanthology.org/2021.wanlp-1.24/)**
+4. **[Fine-grained Arabic Dialect Identification](https://aclanthology.org/W19-4622.pdf)**
 
    * Dataset and task focused on multi-dialect detection.
 
@@ -61,11 +61,8 @@ These are freely available and used in prior research:
 
 | Dataset                                          | Description                                                 | Link                                                                     |
 | ------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **ADI / MADAR**                                  | Multilingual Arabic Dialect Identification across 25 cities | [MADAR](https://github.com/CAMeL-Lab/madar)                              |
-| **ArSarcasm / Arap-Tweet**                       | Dialectal Arabic tweets with labels                         | [ArSarcasm](https://github.com/UBC-NLP/ArSarcasm)                        |
-| **QADI Dataset**                                 | Fine-grained dialect identification                         | [QADI on GitHub](https://github.com/qcri/QADI)                           |
-| **CALOYP**                                       | Youth-oriented social media corpus; includes code-switching | [CALOYP Paper](https://aclanthology.org/L18-1554.pdf) (Email to request) |
-| **Twitter Dialect Corpus (with code-switching)** | Shared tasks with dialect+code-switch labels                | See [VarDial Workshop](https://vardial.org/2021/)                        |
+| **ADI / MADAR**                                  | Multilingual Arabic Dialect Identification across 25 cities | [MADAR](https://sites.google.com/nyu.edu/madar/)                              |
+
 
 > 💡 If none have code-switching annotations: build my own from Twitter using regex + langdetect (Arabic vs English tokens) for weak supervision.
 
